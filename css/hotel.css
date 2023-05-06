@@ -1,0 +1,41 @@
+.bg-nav-color{
+    background-color:rgb(1, 101, 131);
+
+}
+html,body,nav{
+    margin: 0;
+    width: 100vw;
+}
+
+body{
+    margin: 0 !important;
+    width: 100vw;
+    padding: 0 !important;
+}
+footer .card{
+    background-color: rgb(79, 95, 104);
+    border-radius: 0;
+}
+footer .card-body {
+    height: 150px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.911) !important;
+}
+footer .card-body {
+    color: rgba(255, 255, 255, 0.911) !important; 
+    text-decoration: none;
+}
+footer .card-header{
+    background-color: rgb(53, 60, 64) !important;
+    text-align: center;
+
+}
+footer .card-header a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+footer .card-header a:hover{
+    color:rgb(36, 153, 189)
+}
