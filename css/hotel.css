@@ -39,3 +39,67 @@ footer .card-header a{
 footer .card-header a:hover{
     color:rgb(36, 153, 189)
 }
+
+main .row{
+    padding: 0 120px !important; 
+
+}
+
+main h2{
+    margin: 30px 100px 60px 100px;
+
+}
+
+    img.card-img-top-eventos{
+        width: 40%;
+        padding: 0 50px !important; 
+        text-align: center;
+    }
+
+    main table, main table tr, main table tr td, main table th{
+        border: 1px solid black;
+
+    }
+    main table th{
+        padding: 5px !important;
+
+    } 
+        main table th{
+        text-align: center;
+    }
+    main table td h3{
+        text-align: center;
+
+    } 
+    main table{
+        margin: 50px auto 100px auto;
+    }
+    main table tr{
+        background-color: #eee;
+        transition: ease 1s;
+    }
+    main table tr:hover{
+        background-color: grey;
+        cursor: pointer;
+    }
+    .titulo-tarifas{
+        background-color: rgb(169, 197, 225);
+    }
+    
+    main form{
+        margin: 50px auto !important;
+        width: 80% !important;
+        padding: 10px;
+        border: 1px solid silver;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    main form textarea{
+        resize: none; /*bloquear redimensionamento*/ 
+    }
+
+    main form button{
+        display: block !important;
+        margin: 20px auto !important;
+    }
+  

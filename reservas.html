@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Hotel Hotera">
+  <meta name="keyword" content="Hotel, Lazer, Luxo, Acomodação, Descanso, Férias, Trabalho">
+  <meta name="description" content="Hotel com o máximo lazer e conforto para você e a sua família">
+  <meta name="robots" content="index,follow">
+
+  <!-- Primary Meta Tags -->
+  <title>Hotel Hotera - O máximo de conforto</title>
+  <meta name="title" content="Hotel Hotera - O máximo de conforto">
+  <meta name="description"
+    content="Aqui você encontra o conforto de quartos modernos e com o mais alto nível de serviço Crie momentos incríveis. Reserve sua estadia em nosso site.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="Endereço do seu site(url)">
+  <meta property="og:title" content="Hotel Hotera - O máximo de conforto">
+  <meta property="og:description"
+    content="Aqui você encontra o conforto de quartos modernos e com o mais alto nível de serviço Crie momentos incríveis. Reserve sua estadia em nosso site.">
+  <meta property="og:image"
+    content="img/espaco1.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="Hotel Hotera - O máximo de conforto">
+  <meta property="twitter:description"
+    content="Aqui você encontra o conforto de quartos modernos e com o mais alto nível de serviço Crie momentos incríveis. Reserve sua estadia em nosso site.">
+  <meta property="twitter:image"
+  content="img/espaco1.jpg">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;300;600&family=Montserrat:wght@200;400;600;700&family=Open+Sans:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/hotel.css">
+
+  <title>Hotel</title>
+</head>
+
+<body class="container-fluid">
+  <header>
+    <!-- inicio da barra de navegacao -->
+    <nav class="navbar navbar-expand-lg bg-nav-color navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Hotera</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" tabindex="1" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" tabindex="2" href="hotel.html">Hotel</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" tabindex="3" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Acomodação
+              </a>
+              <ul class="dropdown-menu bg-nav-color navbar-dark">
+                <li><a class="dropdown-item txt-nav-color" tabindex="4" href="standard.html">Standard</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item txt-nav-color" tabindex="5" href="double.html">Double</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item txt-nav-color" tabindex="6" href="master.html">Master</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item txt-nav-color" tabindex="7" href="presidencial.html">Presidencial</a></li>
+              </ul>
+
+            <li class="nav-item">
+              <a class="nav-link" tabindex="8" href="lazer.html">Lazer</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" tabindex="9" href="eventos.html">Eventos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" tabindex="10" href="tarifas.html">Tarifas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" tabindex="11" href="reservas.html">Reservas</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!-- fim da barra de navegacao -->
+
+    <!-- inicio do carrossel -->
+    
+    <!-- fim do carrossel -->
+  </header>
+  <main>
+
+<h3> Faça a sua reserva</h3>
+
+<form class="row g-3">
+
+
+  <div class="col-3">
+    <label for="data-checkin" class="form-label">Data check-in</label>
+    <input type="date" class="form-control" id="data-checkin">
+  </div>
+  <div class="col-3">
+    <label for="hora-checkin" class="form-label">Horário check-in</label>
+    <input type="time" class="form-control" id="hora-checkin">
+  </div>
+
+
+  <div class="col-3">
+    <label for="data-checkout" class="form-label">Data check-out</label>
+    <input type="date" class="form-control" id="data-checout">
+  </div>
+  <div class="col-3">
+    <label for="hora-checkout" class="form-label">Horário check-out</label>
+    <input type="time" class="form-control" id="hora-checkout">
+  </div>
+
+
+
+
+  <div class="col-5">
+    <label for="acomodacao" class="form-label">Acomodação</label>
+    <select id="acomodacao" class="form-select">
+      <option selected>Selecione</option>
+      <option value="standard">Standard</option>
+      <option value="double">Double</option>
+      <option value="master">Master</option>
+      <option value="presidencial">Presidencial</option>
+    </select>
+  </div>
+
+
+  
+  <div class="col-3">
+    <label for="pagamento" class="form-label">Pagamento</label>
+    <select id="pagamento" class="form-select">
+      <option selected>Selecione</option>
+      <option value="Pix">Pix</option>
+      <option value="Cartão de crédito">Cartão de crédito</option>
+      <option value="Cartão Débito">Cartão de débito</option>
+      <option value="Boleto Bancário">Boleto bancário</option>
+    </select>
+  </div>
+
+
+  <div class="col-2">
+    <label for="adultos" class="form-label">Adultos</label>
+    <select id="adultos" class="form-select">
+      <option selected>Selecione</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+  </div>
+
+
+  <div class="col-2">
+    <label for="crianças" class="form-label">Crianças</label>
+    <select id="crianças" class="form-select">
+      <option selected>Selecione</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+  </div>
+
+  
+  <div class="col-5">
+    <label for="nome-completo" class="form-label">Nome completo</label>
+    <input type="text" class="form-control" id="nome-completo" required>
+  </div>
+
+  <div class="col-5">
+    <label for="email" class="form-label">E-mail</label>
+    <input type="email" class="form-control" id="email" required>
+  </div>
+  
+
+  <div class="col-12">
+    <label for="observacao" class="form-label">Observações</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Reservar</button>
+  </div>
+</form>
+
+  </main>
+  <footer>
+
+    <div class="card">
+      <div class="card-header">
+        <a href="http://www.facebook.com" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+
+        <a href="http://www.instagram.com" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="http://www.twitter.com" target="_blank">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+
+        <a href="https://www.youtube.com" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+      </div>
+      <div class="card-body">
+        Avenida Pacheco Gomes de Alencar, 1542  <br> Jardim Paulista - São Paulo 
+        <br> Contato:+55 (11) 4565-4354 
+        <br> E-mail: <a href="mailto:contato@hotel.com.br?
+                          Subject=Contato&Body='Olá!'&
+                          CC=gerencia@hotel.com.br;recepcao@hotel.com.br">
+          contato@hotel.com.br
+        </a>
+      </div>
+    </div>
+
+
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
